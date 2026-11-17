@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.git/
+.venv/
+data/
+captures/
+*.md
+sorties/
+scripts/
+charge*.json
+explorer.py
+entrainer.py
+**/*.pt
+**/*.csv
+**/*.zip

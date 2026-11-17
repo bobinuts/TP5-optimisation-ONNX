@@ -1,0 +1,24 @@
+﻿    i New version 1.29.0 available (installed version is 1.25.0) at https://github.com/docker/scout-cli
+    ...Storing image for indexing
+    v Image stored for indexing
+    ...Indexing
+    v Indexed 84 packages
+    ! failed to delete temporary image archive C:\Users\pelli\AppData\Local\Temp\docker-scout\sha256\d3afac9be257e8cac4b9cc62da23769de4f493f8ec3a964d5bae0a415d759edf\858ac6c0-8713-44f8-96bf-3e72833098f7: unlinkat C:\Users\pelli\AppData\Local\Temp\docker-scout\sha256\d3afac9be257e8cac4b9cc62da23769de4f493f8ec3a964d5bae0a415d759edf\858ac6c0-8713-44f8-96bf-3e72833098f7: The process cannot access the file because it is being used by another process.    v No vulnerable package detected
+
+
+## Overview
+
+                   │        Analyzed Image         
+───────────────────┼───────────────────────────────
+ Target            │  local://dermascan-api:2.1.0  
+   digest          │  d3afac9be257                 
+   platform        │ linux/amd64                   
+   vulnerabilities │    0C     0H     0M     0L    
+   size            │ 125 MB                        
+   packages        │ 84                            
+
+
+## Packages and Vulnerabilities
+
+  No vulnerable packages detected
+

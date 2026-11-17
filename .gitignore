@@ -1,0 +1,47 @@
+# Donnees volumineuses et reconstructibles (archive ISIC, cache de vignettes) : jamais dans le depot
+donnees/
+*.npy
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Environnements et caches Python
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Points de reprise, journaux bruts
+reprise/
+reprise.pt
+*.log
+logs_*/
+
+# Secrets et identifiants
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+*.pfx
+*.p12
+*secret*
+*credentials*
+*salt*
+.azure/
+*.tfstate
+*.tfstate.*
+
+# Systeme et editeurs
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# S5 : les poids PyTorch ne partent pas sur le depot (le .onnx servi, lui, y va)
+*.pt
+model/*.onnx.data

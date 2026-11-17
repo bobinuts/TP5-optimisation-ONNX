@@ -1,0 +1,8 @@
+﻿# /predict local, conteneur dermascan-api-s5 (dermascan-api:2.1.0), image de contrôle ISIC_0699524
+{"decision":"a_examiner","probabilite_maligne":0.319664,"rappel_cible":0.95,"seuil":5.793547245973642e-05,"version_modele":"2.1.0"}
+{"detail":"tbp_tile_type inconnu : 'UV'","error":"covariable invalide"}
+
+HTTP 400
+
+# ligne de journal
+{"ts": "2026-11-17T11:47:55.974Z", "request_id": "c6e507b0-f6e2-417e-956d-8c53ae20a222", "model_version": "2.1.0", "image_digest": null, "patient_ref": "0a3277019c29254c", "probabilite_maligne": 0.319664, "seuil_applique": 5.793547245973642e-05, "rappel_cible": 0.95, "decision": "a_examiner", "covariables": {"age_tranche": "60-69", "sex": "male", "anatom_site_general": null, "tbp_tile_type": "3D: white"}, "inference_ms": 13.0, "http_status": 200, "input_schema_version": "2.0", "env": "local"}
